@@ -85,7 +85,7 @@ def index():
     college_data = load_college_data()
     return render_template('home.html', colleges=college_data)
 
-@app.route('/upload', methods=['POST','GET'])
+@app.route('/upload', methods=['POST'])
 def upload_file():
     if not os.path.exists(INFO_DIRECTORY):
         os.makedirs(INFO_DIRECTORY)

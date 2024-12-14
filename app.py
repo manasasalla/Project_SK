@@ -20,7 +20,7 @@ CLIENT_SECRETS = {
         "token_uri": "https://oauth2.googleapis.com/token",
         "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
         "client_secret": "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",
-        "redirect_uris": ["https://project-sk-seven.vercel.app/upload", "https://project-sk-seven.vercel.app/cms_portal", "https://project-sk-seven.vercel.app/authorize"]
+        "redirect_uris": ["https://project-sk-seven.vercel.app"]
     }
 }
 
